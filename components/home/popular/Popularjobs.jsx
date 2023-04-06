@@ -33,7 +33,7 @@ const Popularjobs = () => {
               <PopularJobCard 
                 item={item}
               />
-            )}
+          )}
             keyExtractor={ item => item?.job_id}
             contentContainerStyle={{columnGap: SIZES.medium}}
             horizontal
